@@ -1,222 +1,111 @@
 .navbar {
-
 	margin-bottom: 0;
-
 	/*background-color: #00BF96;*/
-
 	background-image: url(/views/yengianguyen/asset/bg-go_2.jpg);
-
 	border: 0;
-
 	border-radius: 0;
-
 	font-size: 20px;
-
 	font-family: 'Pangolin', cursive;
-
 }
-
 .navbar a{
-
 	color: #e8e866 !important;
-
 	font-size: 20px;
-
 }
-
 .navbar .navbar-header a{
-
 	color: #e8e866 !important;
-
 }
-
 .navbar-nav li:hover {
-
 	background-color:#5a0704 !important;
-
 	color:#fff !important;
-
 }
-
 .navbar-nav li a:hover {
-
 	color:#fff !important;
-
 }
-
 .navbar-nav > li{
-
 	border-left: solid 1px #000;
-
 	border-right: solid 1px #000;
-
 }
-
 .dropdown-menu{
-
 	background-color: #5a0704 !important;
-
 }
-
 .dropdown-menu li a:hover {
-
 	color:#fff !important;
-
 	background-color: #5a0704 !important;
-
 }
-
 .dropdown-menu li a {
-
 	color:#e8e866 !important;
-
 	font-size: 16px;
-
 }
-
 @media (min-width: 979px) {
-
 	ul.nav li.dropdown:hover > ul.dropdown-menu {
-
 		display: block;
-
 		border-radius: 0;
-
 	}
-
 	ul.nav li.dropdown > ul.dropdown-menu {
-
 		border-radius: 0;
-
 	}
-
 }
-
 .navbar-default .navbar-nav>.open>a,
-
  .navbar-default .navbar-nav>.open>a:focus,
-
   .navbar-default .navbar-nav>.open>a:hover{
-
   	background-color: #000;
-
   }
-
 a:hover{
-
 	text-decoration: none;
-
 }
-
 body{
-
 	/*background-image: url(/uploads/icons/bg.jpg);*/
-
 	background-color: #F7F7F7;
-
 }
-
 .panel,.btn,.form-control,.list-group,.list-group-item{
-
 	border-radius: 0;
-
 }
-
 .copyright{
-
 	background-color:#262626;
-
 	padding:5px;
-
 	color:#ACACAC;
-
 }
-
 ::selection { background-color: #E13300; color: white; }
-
 ::-moz-selection { background-color: #E13300; color: white; }
-
 .header{
-
 	background-image: url(/views/yengianguyen/asset/bg-go.jpg);
-
 }
-
 .home{
-
 	background-image: url(/views/yengianguyen/asset/bg_sanpham.jpg);
-
 }
-
 .footer{
-
 	background-image: url(/views/yengianguyen/asset/footer-bg.jpg);
-
-	padding-top: 5px;
-
-	padding-bottom: 5px;
-
+	padding-top: 15px;
+	padding-bottom: 15px;
 	color: #e8e866;
-
 }
-
 .font-dep{
-
 	padding: 22px;
-
 	font-family: 'Dancing Script', cursive;
-
 	font-size: 22px;
-	color:#000;
-
 }
-
 .col-item{
-
 	background-color: #5a0704 !important;
-
 	margin: auto;
-
 	width: 270px;
-
 }
-
 .col-img {
-
     height: 350px;
-
     position: relative;
-
 }
-
 .col-name{
-
 	height: 40px;
-
 	margin-top: 10px;
-
 	margin-bottom: 5px;
-
 	color: #e8e866 !important;
-
 	padding:10px;
-
 }
-
 .col-price{
-
 	height:40px;
-
 	border-top: solid 1px #e1e1e1;
-
 	padding-top: 5px;
-
 	padding-bottom:0px;
-
 	color: #e8e866 !important;
-
 	padding:10px;
-
 	margin-bottom: 10px;
-
 }

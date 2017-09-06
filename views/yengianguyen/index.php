@@ -42,17 +42,6 @@
     <script src="/views/assets/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-
    <?php
    if(isset($alert)) $this->load->view('alert/'.$alert);
    $this->load->view('yengianguyen/header',$_varibles);
@@ -85,19 +74,5 @@
     <script type="text/javascript">
       $("img").attr("class","img-responsive");
     </script>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/594df28ce9c6d324a4737182/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-<button class="btn btn-danger" style="background-color: red;font-size: 16px;border-radius: 0px;position: fixed;bottom: 0px;left: 0px;"><b><i class="fa fa-phone"></i> 0936.441.116</b></button>
 </body>
 </html>
